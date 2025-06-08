@@ -1,13 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { HeroSection } from "@/components/HeroSection";
+import { AboutSection } from "@/components/AboutSection";
+import { MenuSection } from "@/components/MenuSection";
+import { DrinksSection } from "@/components/DrinksSection";
+import { ReservationsSection } from "@/components/ReservationsSection";
+import { PrivateDiningSection } from "@/components/PrivateDiningSection";
+import { ContactSection } from "@/components/ContactSection";
+import { VouchersSection } from "@/components/VouchersSection";
+import { WhatsHappeningSection } from "@/components/WhatsHappeningSection";
+import { CareersSection } from "@/components/CareersSection";
+import { SubscribeSection } from "@/components/SubscribeSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen">
+      <HeroSection />
+      <AboutSection />
+      <MenuSection />
+      <DrinksSection />
+      <ReservationsSection />
+      <PrivateDiningSection />
+      <ContactSection />
+      <VouchersSection />
+      <WhatsHappeningSection />
+      <CareersSection />
+      <SubscribeSection />
+    </main>
   );
 };
 
